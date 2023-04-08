@@ -32,7 +32,7 @@ with col2:
     st.title("Robo Minion 🤖")
     st.header("Powered by AOAI - GPT 3.5 Turbo 🚀")
 
-# Initializes the Streamlit session state with default values for the 'prompts', 'generated', 
+# Initializes the Streamlit session state with default values for the 'prompts', 'generated', 'past'.
 # The 'prompts' list stores the conversation history, with each message represented as a dictionary with 'role' and 'content' keys.
 # Deine the 'role' key as 'system' for the AI model's messages.
 if 'prompts' not in st.session_state:
